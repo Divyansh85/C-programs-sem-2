@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<math.h>
+float num,square_root;
+void main()
+{
+    printf("Enter Number for Square Root : ");
+    scanf("%f",&num);
+    square_root=sqrt(num);
+    printf("Square Root Of number is : %f",square_root);
+
+}
+
